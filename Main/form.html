@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header><h1>Student Registration Form</h1></header>
+    <main>
+        <form>
+            <label>Name:</label>
+            <input type="text"><br>
+            <label>Email:</label>
+            <input type="email"><br>
+            <label for="password">Password:</label>
+            <input type="password"><br>
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch">
+              <option value="aids">AI&DS</option>
+              <option value="cse">CSE</option>
+              <option value="ece">ECE</option>
+            </select><br>
+            <input type="radio" name="gender">
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>Other</label><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>Thank you for your registration</p>
+</body>
+</html>
