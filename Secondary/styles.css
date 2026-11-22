@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+}
+p{
+    font-size: 20px;
+}
+#Element{
+    color: red;
+}
+.Level{
+    color: green;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5,h4,ul{
+    color: purple;
+}
