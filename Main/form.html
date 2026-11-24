@@ -10,27 +10,52 @@
     <header><h1>Student Registration Form</h1></header>
     <main>
         <form>
-            <label>Name:</label>
-            <input type="text"><br>
-            <label>Email:</label>
-            <input type="email"><br>
-            <label for="password">Password:</label>
-            <input type="password"><br>
-            <label for="branch">Branch:</label>
-            <select id="branch" name="branch">
-              <option value="aids">AI&DS</option>
-              <option value="cse">CSE</option>
-              <option value="ece">ECE</option>
-            </select><br>
-            <input type="radio" name="gender">
-            <label>Male</label>
-            <input type="radio" name="gender">
-            <label>Female</label>
-            <input type="radio" name="gender">
-            <label>Other</label><br>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-            <input id="button" type="submit" value="Submit">
+            <table>
+            <tr>
+                <td>Name:</td><td><input type="text" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" placeholder="Enter your email"></td>
+            </tr><br>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" placeholder="Enter your age"></td>
+            </tr>
+            </table>
+            <tr>
+                <td>Department:</td>
+                <td>
+                    <select name="department">
+                        <option value="aids">AI&DS</option>
+                        <option value="cse">CSE</option>
+                        <option value="ece">ECE</option>
+                    </select>
+                </td>
+            </tr><br>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male">
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="other">
+                    <label>Other</label>
+                </td>
+            </tr><br>
+            <tr>
+                <td>Message:</td>
+                <td>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="button" type="submit" value="Submit">
+                </td>
+            </tr>
+        </form>
         </form>
     </main>
     <footer>
